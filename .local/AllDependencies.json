@@ -1729,9 +1729,9 @@
     "restore": {
       "projectUniqueName": "robot1.2",
       "projectName": "robot1.2",
-      "projectPath": "D:\\work\\uipath\\robot1.2\\robot1.2\\.local",
+      "projectPath": "D:\\work\\uipath\\robot1.2\\.local",
       "packagesPath": "C:\\Users\\21932243\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\uipath\\robot1.2\\robot1.2\\.local"
+      "outputPath": "D:\\work\\uipath\\robot1.2\\.local"
     },
     "frameworks": {
       "net461": {
