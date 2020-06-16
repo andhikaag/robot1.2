@@ -113,6 +113,44 @@
         "C:\\Users\\21932243\\.nuget\\packages\\uipath.vision/2.0.3\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\21932243\\.nuget\\packages\\uipath.uiautomation.activities\\20.4.1"
+    },
+    {
+      "Package": {
+        "Id": "Generate_Sql_Queries",
+        "Version": "2.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\generate_sql_queries/2.0.0\\lib/Generate_Sql_Queries.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\generate_sql_queries\\2.0.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.3.7369.25200"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities/1.3.7369.25200\\lib/net452/Microsoft.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities/1.3.7369.25200\\lib/net452/UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities/1.3.7369.25200\\lib/net452/UiPath.Database.Activities.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities/1.3.7369.25200\\lib/net452/UiPath.Database.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200"
+    },
+    {
+      "Package": {
+        "Id": "SQLiteDatabaseForUiPath",
+        "Version": "1.0.17"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\entityframework/6.2.0\\lib/net45/EntityFramework.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\entityframework/6.2.0\\lib/net45/EntityFramework.SqlServer.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\sqlitedatabaseforuipath/1.0.17\\lib/SQLiteActivities.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.core/1.0.110\\lib/net46/System.Data.SQLite.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.ef6/1.0.110\\lib/net46/System.Data.SQLite.EF6.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.linq/1.0.110\\lib/net46/System.Data.SQLite.Linq.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\sqlitedatabaseforuipath\\1.0.17"
     }
   ],
   "Conflicts": [],
@@ -147,9 +185,19 @@
       "Version": "2.5.0",
       "Dependencies": []
     },
+    "EntityFramework": {
+      "Id": "EntityFramework",
+      "Version": "6.2.0",
+      "Dependencies": []
+    },
     "Extended.Wpf.Toolkit": {
       "Id": "Extended.Wpf.Toolkit",
       "Version": "2.8.0",
+      "Dependencies": []
+    },
+    "Generate_Sql_Queries": {
+      "Id": "Generate_Sql_Queries",
+      "Version": "2.0.0",
       "Dependencies": []
     },
     "Humanizer.Core": {
@@ -212,6 +260,54 @@
       "Version": "1.0.0",
       "Dependencies": []
     },
+    "SQLiteDatabaseForUiPath": {
+      "Id": "SQLiteDatabaseForUiPath",
+      "Version": "1.0.17",
+      "Dependencies": [
+        {
+          "Item1": "System.Data.SQLite",
+          "Item2": "[1.0.110, )"
+        }
+      ]
+    },
+    "System.Data.SQLite": {
+      "Id": "System.Data.SQLite",
+      "Version": "1.0.110",
+      "Dependencies": [
+        {
+          "Item1": "System.Data.SQLite.Core",
+          "Item2": "[1.0.110, )"
+        },
+        {
+          "Item1": "System.Data.SQLite.Linq",
+          "Item2": "[1.0.110, )"
+        },
+        {
+          "Item1": "System.Data.SQLite.EF6",
+          "Item2": "[1.0.110, )"
+        }
+      ]
+    },
+    "System.Data.SQLite.Core": {
+      "Id": "System.Data.SQLite.Core",
+      "Version": "1.0.110",
+      "Dependencies": []
+    },
+    "System.Data.SQLite.EF6": {
+      "Id": "System.Data.SQLite.EF6",
+      "Version": "1.0.110",
+      "Dependencies": [
+        {
+          "Item1": "EntityFramework",
+          "Item2": "[6.2.0, )"
+        }
+      ]
+    },
+    "System.Data.SQLite.Linq": {
+      "Id": "System.Data.SQLite.Linq",
+      "Version": "1.0.110",
+      "Dependencies": []
+    },
     "System.IO.Abstractions": {
       "Id": "System.IO.Abstractions",
       "Version": "3.0.10",
@@ -230,6 +326,11 @@
     "UiPath": {
       "Id": "UiPath",
       "Version": "20.4.7422.14731",
+      "Dependencies": []
+    },
+    "UiPath.Database.Activities": {
+      "Id": "UiPath.Database.Activities",
+      "Version": "1.3.7369.25200",
       "Dependencies": []
     },
     "UiPath.Excel.Activities": {
@@ -457,6 +558,17 @@
     },
     {
       "Package": {
+        "Id": "EntityFramework",
+        "Version": "6.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\entityframework\\6.2.0\\lib\\net45\\EntityFramework.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\entityframework\\6.2.0\\lib\\net45\\EntityFramework.SqlServer.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\entityframework\\6.2.0"
+    },
+    {
+      "Package": {
         "Id": "Extended.Wpf.Toolkit",
         "Version": "2.8.0"
       },
@@ -469,6 +581,16 @@
         "C:\\Users\\21932243\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
       ],
       "Path": "C:\\Users\\21932243\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0"
+    },
+    {
+      "Package": {
+        "Id": "Generate_Sql_Queries",
+        "Version": "2.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\generate_sql_queries\\2.0.0\\lib\\Generate_Sql_Queries.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\generate_sql_queries\\2.0.0"
     },
     {
       "Package": {
@@ -566,6 +688,54 @@
     },
     {
       "Package": {
+        "Id": "SQLiteDatabaseForUiPath",
+        "Version": "1.0.17"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\sqlitedatabaseforuipath\\1.0.17\\lib\\SQLiteActivities.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\sqlitedatabaseforuipath\\1.0.17"
+    },
+    {
+      "Package": {
+        "Id": "System.Data.SQLite",
+        "Version": "1.0.110"
+      },
+      "Assemblies": [],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite\\1.0.110"
+    },
+    {
+      "Package": {
+        "Id": "System.Data.SQLite.Core",
+        "Version": "1.0.110"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.core\\1.0.110\\lib\\net46\\System.Data.SQLite.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.core\\1.0.110"
+    },
+    {
+      "Package": {
+        "Id": "System.Data.SQLite.EF6",
+        "Version": "1.0.110"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.110\\lib\\net46\\System.Data.SQLite.EF6.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.110"
+    },
+    {
+      "Package": {
+        "Id": "System.Data.SQLite.Linq",
+        "Version": "1.0.110"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.linq\\1.0.110\\lib\\net46\\System.Data.SQLite.Linq.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\system.data.sqlite.linq\\1.0.110"
+    },
+    {
+      "Package": {
         "Id": "System.IO.Abstractions",
         "Version": "3.0.10"
       },
@@ -603,6 +773,19 @@
         "C:\\Users\\21932243\\.nuget\\packages\\uipath\\20.4.7422.14731\\lib\\UiPath.Interop.dll"
       ],
       "Path": "C:\\Users\\21932243\\.nuget\\packages\\uipath\\20.4.7422.14731"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.3.7369.25200"
+      },
+      "Assemblies": [
+        "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200\\lib\\net452\\Microsoft.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200\\lib\\net452\\UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200\\lib\\net452\\UiPath.Database.Activities.dll",
+        "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200\\lib\\net452\\UiPath.Database.dll"
+      ],
+      "Path": "C:\\Users\\21932243\\.nuget\\packages\\uipath.database.activities\\1.3.7369.25200"
     },
     {
       "Package": {
