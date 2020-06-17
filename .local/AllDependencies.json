@@ -1614,7 +1614,7 @@
       ]
     },
     "UiPath.Database.Activities/1.3.7369.25200": {
-      "sha512": "ZmaNca3smt+vTAkUSbHsvkOakyFNuYo7Zbr09nNc23B6E1aop9wGyGVKfthS1Edkh16NapSmmFrIpIaW6rQfNQ==",
+      "sha512": "kNfeJILfxcjrGUx1T2YCaj1yJwftGSUrFbxGOgHWerLX19Ybim2jl3WBj8k2fFEt1QAd1p3VCp1K/58byCXcqw==",
       "type": "package",
       "path": "uipath.database.activities/1.3.7369.25200",
       "files": [
@@ -2047,15 +2047,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\21932243\\.nuget\\packages\\": {}
+    "C:\\Users\\btpnsshifted\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "robot1.2",
       "projectName": "robot1.2",
-      "projectPath": "D:\\work\\uipath\\robot1.2\\.local",
-      "packagesPath": "C:\\Users\\21932243\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\uipath\\robot1.2\\.local"
+      "projectPath": "C:\\Users\\btpnsshifted\\Documents\\GitHub\\robot1.2\\.local",
+      "packagesPath": "C:\\Users\\btpnsshifted\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\btpnsshifted\\Documents\\GitHub\\robot1.2\\.local"
     },
     "frameworks": {
       "net461": {
